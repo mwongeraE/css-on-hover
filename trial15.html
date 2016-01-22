@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+position:relative;
+}
+.container .textbox {
+width:57%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+text-align: center;
+color: yellow;
+-webkit-transform: scale(0);
+transform: scale(0);
+border-radius:5px;
+background-color: rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+.container:hover .textbox {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.text {
+padding-top: 50px;
+}
+.textbox {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+</style>
+</head>
+<body>
+
+ <div class="container">
+<img src="image1.jpeg" alt="img">
+<div class="textbox">
+<p class="text"><b>MWONGERA</b></p>
+</div>
+</div>
+
+</body>
+</html>
